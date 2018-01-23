@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Hawila</string>
+    <string name="gallery">Posts</string>
+    <string name="price">Prices</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="facebook">Facebook</string>
+    <string name="instagram">Instagram</string>
+    <string name="whats">WhatsApp</string>
+    <string name="acc">Photographer Account</string>
+    <string name="phone">Phone Number</string>
+    <string name="setting">Setting</string>
+
+
+    <string name="text_outside_circle_button_text_normal">Text Outside Circle Button(Normal)</string>
+    <string name="text_outside_circle_button_text_highlighted">Text Outside Circle Button(Highlighted)</string>
+    <string name="text_outside_circle_button_text_unable">Text Outside Circle Button(Unable)</string>
+
+    <string name="adID">ca-app-pub-7936396332846954/1932187836</string>
+    <string name="facebook_app_id">1648805185171334</string>
+</resources>

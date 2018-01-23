@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_social_network"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hawila.hawila.Modify.SocialNetwork">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card4"
+            android:id="@+id/facebook"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/facebook"
+                android:id="@+id/fb"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/fb"
+                android:text="Edit Page Id"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginLeft="50dp"
+                android:id="@+id/tFb"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card1"
+            android:id="@+id/instagram"
+            android:layout_below="@+id/facebook"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/instagram"
+                android:id="@+id/insta"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/insta"
+                android:text="Edit Instagram Profile"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/tinsta"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card5"
+            android:id="@+id/whats"
+            android:layout_below="@+id/instagram"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/whatsapp"
+                android:id="@+id/wh"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/wh"
+                android:text="Edit WhatsApp Number"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/twh"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card2"
+            android:id="@+id/mobile"
+            android:layout_below="@+id/whats"
+            android:layout_marginTop="10dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/phon"
+                android:id="@+id/mb"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/mb"
+                android:text="Edit Phone Number"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/tmb"
+                />
+        </RelativeLayout>
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>
